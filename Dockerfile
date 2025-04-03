@@ -39,7 +39,7 @@ RUN sed -i "/^}/i \
 COPY teampass-docker-start.sh /teampass-docker-start.sh
 
 # Configure nginx-php-fpm image to pull our code.
-ENV REPO_URL https://github.com/nilsteampassnet/TeamPass.git
+ENV REPO_URL https://github.com/radamuz/TeamPass.git
 #ENV GIT_TAG 3.0.0.14
 
 # Configure supervisord program:crond
